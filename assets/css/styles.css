@@ -1,0 +1,464 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+:root {
+  --bg-color: #24246b;
+  --font-color-hero: #ffffff;
+  --font-color: #000000;
+  --border-color: #edbc31;
+  --software-bg: #d1d1f0;
+}
+.container {
+  max-width: 1260px;
+}
+/* utility classes start */
+.heading h1 {
+  font-weight: 900;
+  font-size: 20px;
+}
+.border-custom {
+  border-bottom: 10px solid var(--border-color);
+  border-radius: 1px;
+  margin-top: 12px;
+  width: 56px;
+}
+/* utility classes end */
+/* hero section css start */
+.hero-section {
+  background-color: var(--bg-color);
+  color: var(--font-color-hero);
+}
+.hero-section .container {
+  padding: 110px 44px;
+}
+.hero-section .hero-text h1 {
+  font-weight: 900;
+  font-size: 64px;
+}
+.hero-section .hero-text h4 {
+  font-weight: 700;
+  font-size: 16px;
+}
+.hero-section .hero-text p {
+  margin-top: 40px;
+  font-weight: 500;
+  font-size: 12px;
+  text-align: justify;
+}
+.hero-section .hero-image {
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+}
+.hero-section .hero-image .image-div {
+  display: flex;
+  justify-content: center;
+}
+.hero-section .hero-image .image-div img {
+  width: 336px;
+  height: 344px;
+}
+.hero-section .hero-image .social-links {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.hero-section .hero-image .social-links .email img {
+  width: 16px;
+  height: 16px;
+  margin-top: 3px;
+}
+.hero-section .hero-image .social-links .email p {
+  font-weight: 300;
+  font-size: 14px;
+  padding-left: 8px;
+  margin-bottom: 0;
+}
+.hero-section .hero-image .social-links .links {
+  margin-left: 5px;
+}
+.hero-section .hero-image .social-links .links img {
+  width: 16px;
+  height: 16px;
+}
+.hero-section .hero-image .social-links .links a {
+  color: var(--font-color-hero);
+  text-decoration: none;
+}
+/* hero section css end */
+
+/* experience section css start */
+.experience .container {
+  padding: 56px 44px;
+}
+.experience .professional-pratice {
+  margin-top: 30px;
+}
+
+.experience .professional-pratice .first-experience .first-section p {
+  font-size: 14px;
+}
+
+.experience .professional-pratice .first-section .first-experience h1 {
+  font-weight: 900;
+  font-size: 18px;
+}
+.experience .professional-pratice .first-section .first-experience h5 {
+  font-weight: 300;
+  font-size: 12px;
+}
+.experience .professional-pratice .first-section .first-experience .detail {
+  font-weight: 500;
+  font-size: 12px;
+  text-align: justify;
+}
+.experience .professional-pratice .first-section .functionalities {
+  margin-top: 25px;
+}
+.experience .professional-pratice .first-section .functionalities h1 {
+  font-weight: 700;
+  font-size: 14px;
+}
+.experience .professional-pratice .first-section ul {
+  list-style: none;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0;
+}
+
+.experience .professional-pratice .first-section ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.experience .professional-pratice .first-section ul li img {
+  width: 20px;
+  height: 16px;
+}
+.experience .professional-pratice .first-section ul li p {
+  margin-bottom: 0;
+  margin-left: 10px;
+}
+.experience .professional-pratice .first-section .frame-works {
+  margin-top: 25px;
+}
+.experience .professional-pratice .first-section .frame-works h1 {
+  font-weight: 700;
+  font-size: 14px;
+}
+/* experience section css end */
+
+/* skills and method section css start */
+.skills {
+  background-color: var(--bg-color);
+}
+.skills .container {
+  padding: 72px 44px;
+  color: var(--font-color-hero);
+}
+.skills .main {
+  margin-top: 56px;
+}
+.skills .main .main-first {
+  margin-top: 30px;
+}
+.skills .main .main-first h1 {
+  font-weight: 700;
+  font-size: 18px;
+}
+.skills .main .main-first ul {
+  list-style: none;
+  padding-inline-start: 0;
+  margin-top: 24px;
+}
+.skills .main .main-first ul li {
+  display: flex;
+  margin-bottom: 24px;
+}
+.skills .main .main-first ul li img {
+  width: 20px;
+  height: 20px;
+}
+.skills .main .main-first ul li p {
+  margin-left: 8px;
+  font-weight: 500;
+  font-size: 16px;
+}
+.skills .main .main-second h4 {
+  font-weight: 700;
+  font-size: 14px;
+}
+.skills .main .main-second p {
+  font-weight: 500;
+  font-size: 12px;
+  text-align: justify;
+}
+.skills .main .work-methodologies {
+  margin-top: 32px;
+}
+.skills .main .work-methodologies h3 {
+  font-weight: 700;
+  font-size: 14px;
+}
+.skills .main .work-methodologies ul {
+  list-style: none;
+  padding-inline-start: 0;
+}
+.skills .main .work-methodologies ul li {
+  display: flex;
+}
+.skills .main .work-methodologies ul li img {
+  width: 20px;
+  height: 16px;
+  margin-top: 3px;
+}
+.skills .main .work-methodologies ul li p {
+  margin-left: 8px;
+}
+
+.skills .main .extras {
+  margin-top: 32px;
+}
+.skills .main .extras h3 {
+  font-weight: 700;
+  font-size: 14px;
+}
+.skills .main .extras ul {
+  list-style: none;
+  padding-inline-start: 0;
+}
+.skills .main .extras ul li {
+  display: flex;
+}
+.skills .main .extras li img {
+  width: 20px;
+  height: 16px;
+  margin-top: 3px;
+}
+.skills .main .extras ul li p {
+  margin-left: 8px;
+}
+/* skills and method section css end */
+
+/* software css start */
+.software .container {
+  padding: 56px 44px;
+}
+.software .software-list {
+  margin-top: 30px;
+}
+.software .software-list .software-list-image,
+.software .software-list .software-list-image-no {
+  background-color: var(--bg-color);
+  padding: 4px 8px;
+  gap: 10px;
+  border-radius: 2px;
+  width: 32px;
+}
+.software .software-list .software-list-image-no {
+  background-color: var(--bg-color-);
+  padding: 4px 8px;
+  gap: 10px;
+  border-radius: 2px;
+  width: 32px;
+}
+.software .software-list .software-list-image img,
+.software .software-list .software-list-image-no img {
+  width: 16px;
+  height: 16px;
+}
+.software .software-list .software-list-text {
+  background-color: var(--software-bg);
+  width: 80%;
+  padding: 4px 8px;
+  border-radius: 2px;
+}
+.software .software-list .software-list-text p {
+  margin-bottom: 0;
+  font-weight: 500;
+}
+/* software css end */
+
+/* courses css start */
+.courses {
+  margin-top: 6px;
+  margin-bottom: 50px;
+}
+.courses .container {
+  padding: 0 44px;
+}
+.courses .courses-details {
+  margin-top: 35px;
+}
+.courses .courses-details .first-detail .course {
+  margin-bottom: 20px;
+}
+.courses .courses-details .first-detail .course h1 {
+  font-weight: 700;
+  font-size: 18px;
+}
+.courses .courses-details .first-detail .course p {
+  font-weight: 300;
+  font-size: 12px;
+}
+/* courses css end */
+
+/* languages css start */
+.languages {
+  margin-top: 56px;
+  margin-bottom: 88px;
+}
+.languages .container {
+  padding: 0 44px;
+}
+
+.languages .languages-list .language img {
+  width: 20px;
+  height: 16px;
+  margin-top: 3px;
+}
+.languages .languages-list .language p {
+  margin-left: 8px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+/* languages css end */
+
+/*contact form css start*/
+.contact_form {
+  margin-top: 100px;
+  /*margin-bottom: 100px;*/
+  background-color: var(--bg-color);
+  color: var(--font-color-hero);
+}
+.contact_form .container {
+  padding: 72px 44px;
+}
+
+.contact_form .contact-details {
+  /*color: var(--bg-color);*/
+}
+.contact_form .contact-details .details {
+  margin-bottom: 35px;
+}
+.contact_form .contact-details .details:last-child {
+  margin-bottom: 0;
+}
+.contact_form .contact-details .details img {
+  height: 25px;
+  width: 27px;
+}
+.contact_form .contact-details .details p {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 0;
+  padding-left: 10px;
+}
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+
+#contact {
+  background:#F9F9F9;
+  padding:25px;
+  margin-top:10px;
+  border-radius: 10px;
+}
+
+#contact h3 {
+  color: #F96;
+  display: block;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+#contact h4 {
+  margin:5px 0 15px;
+  display:block;
+  font-size:13px;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+  width:100%;
+  border:1px solid #CCC;
+  background:#FFF;
+  margin:0 0 5px;
+  padding:10px;
+}
+
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
+  -webkit-transition:border-color 0.3s ease-in-out;
+  -moz-transition:border-color 0.3s ease-in-out;
+  transition:border-color 0.3s ease-in-out;
+  border:1px solid var(--bg-color);
+}
+
+#contact textarea {
+  height:100px;
+  max-width:100%;
+  resize:none;
+}
+
+#contact button[type="submit"] {
+  cursor:pointer;
+  width:100%;
+  border:none;
+  background: var(--bg-color);
+  color:#FFF;
+  margin:0 0 5px;
+  padding:10px;
+  font-size:15px;
+}
+
+#contact button[type="submit"]:hover {
+  background: transparent;
+  border: 1px solid var(--bg-color);
+  color: var(--bg-color);
+  -webkit-transition:background 0.6s ease-in-out;
+  -moz-transition:background 0.6s ease-in-out;
+  transition:background-color 0.6s ease-in-out;
+}
+
+#contact button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+#contact input:focus, #contact textarea:focus {
+  outline:0;
+  border:1px solid var(--bg-color);
+}
+::-webkit-input-placeholder {
+  color:#888;
+}
+:-moz-placeholder {
+  color:#888;
+}
+::-moz-placeholder {
+  color:#888;
+}
+:-ms-input-placeholder {
+  color:#888;
+}
+
+/*contact form css end*/
+@media screen and (max-width: 767px) {
+  .hero-section .container {
+    padding-top: 40px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .hero-section .hero-image .image-div img {
+    width: 290px;
+    height: 298px;
+  }
+}
